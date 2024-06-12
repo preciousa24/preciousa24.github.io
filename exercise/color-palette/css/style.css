@@ -45,71 +45,75 @@
 
 #style-2-block-1 {
     text-align: center;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     padding: 24px;
     background-color: #230007
 }
 
 #style-2-block-2 {
     text-align: center;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 24px;
     background-color: #D7CF07
 }
 
 #style-2-block-3 {
     text-align: center;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 24px;
     background-color: #D98324
 }
 
 #style-2-block-4 {
     text-align: center;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 24px;
     background-color: #A40606
 }
 
 #style-2-block-5 {
     text-align: center;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 24px;
     background-color: #5A0002
 }
 
+#style-3-heading {
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
 
 #style-3-block-1 {
     text-align: center;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
     background-color: #C0BDA5
 }
 
 #style-3-block-2 {
     text-align: center;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
     background-color: #CC978E
 }
 
 #style-3-block-3 {
     text-align: center;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
     background-color: #F39C6B
 }
 
 #style-3-block-4 {
     text-align: center;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
     background-color: #FF3864
 }
 
 #style-3-block-5 {
     text-align: center;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
     background-color: #261447
 }
