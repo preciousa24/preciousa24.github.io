@@ -1,0 +1,14 @@
+div {
+    border: 10px dashed rebeccapurple;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: blueviolet;
+}
+
+p {
+    border: 20px solid goldenrod;
+    margin: 60px;
+    padding:48px 60px;
+    background-color: yellow;
+    border-radius: 50%;
+}
