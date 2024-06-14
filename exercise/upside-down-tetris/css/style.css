@@ -17,24 +17,29 @@
 .yellow {
     background-color:yellow;
     border-color: goldenrod;
+    border-radius: 50px 20px
 }
 
 .purple {
     background-color:rebeccapurple;
     border-color:purple;
+    border-radius: 48px 48px 
 }
 
 .green {
     background-color:rgb(59, 177, 59);
     border-color: green;
+    border-radius:0px 50px
 }
 
 .lightblue {
     background-color:aquamarine;
     border-color:aqua;
+    border-radius:50px 0px 0px 20px
 }
 
 .pink {
     background-color:pink;
     border-color: palevioletred;
+    border-radius:20px 0px 20px 0px
 }
