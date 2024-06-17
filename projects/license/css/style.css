@@ -18,7 +18,7 @@
 
 #content {
     color: rgb(5, 5, 109);
-    
+     
 }
 
 
@@ -37,7 +37,10 @@
     display: inline-block;
 }
 
-#small-pic-container,
+#small-pic-container {
+    display: inline-block;
+    opacity: 50%
+}
 #data-fields {
     display: inline-block
 }
