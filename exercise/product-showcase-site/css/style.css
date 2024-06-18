@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: rebeccapurple;
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 24px;
+}
