@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+}
+
+#two-columns {
+    display:flex;
+}
+
+#sidebar-content {
+    background-color: white;
+    width: 250px;
+    padding: 24px;
+}
+
+#sidebar-content h4 {
+    border-bottom: 2px solid ghostwhite;
+    padding-bottom: 8px
+}
+
+#main-content {
+    background-color: white;
+    flex: 1; 
+    order:1;
+}    
+
+
+#main-content h1 {
+    border-bottom: 2px solid rgb(218, 218, 224)
+}

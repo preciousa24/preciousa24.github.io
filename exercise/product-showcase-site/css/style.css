@@ -9,5 +9,21 @@ body {
     min-width: 500px;
     max-width: 1000px;
     margin: 0px auto;
-    padding: 24px;
+    padding: 100px;
+    text-align: center
 }
+
+.light-container {
+    background-color: rebeccapurple;
+}
+
+.dark-container {
+    background-color: purple;
+    padding: 50px;
+}
+
+
+.light-container {
+    background-color: rebeccapurple;
+}
+
