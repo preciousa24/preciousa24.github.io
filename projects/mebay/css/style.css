@@ -8,20 +8,40 @@ body {
 
 }
 
-#layout {
-    display:grid;
-    grid-template-columns: 250px 300px 100px;
-    grid-template-areas:"c-1, c-2, c-3"
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 250px 250px 250px 1fr;
+    grid-template-areas: 
+        ". column-area-1 column-area-3 column-area-2 .";
+}    
+
+#column-1 {
+    background-color:lavender;
+    padding: 0px 12px;
+    grid-area: column-area-1;
 }
 
-#container-1 {
-    grid-area:c-1;
+#column-2 {
+    background-color: purple;
+    padding: 0px 12px;
+    grid-area: column-area-2;
+    color:white;
 }
 
-#container-2 {
-    grid-area:c-2;
+#column-3 {
+    background-color: white;
+    padding: 0px 12px;
+    grid-area: column-area-3;
 }
 
-#container-3 {
-    grid-area: c-3;
+#three-columns h2,
+#three-columns h3 {
+    border-bottom: 2px solid #888888;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+
+#three-columns p {
+    margin-top: 12px;
 }
