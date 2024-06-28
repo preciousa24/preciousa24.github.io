@@ -27,13 +27,24 @@ body {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    background-color: rgb(248, 225, 14);
     border: 15px solid  rgb(243, 201, 12)
+}
+
+#pokemon-card-1 {
+    background: radial-gradient(
+        at top left,
+       rgb(151, 230, 87),
+        green,
+        rgb(151, 230, 87)
+        
+
+    )
 }
 
 .pokemon-header {
     display: flex;
     align-items: center;
+    margin-top: 0px;
 }
 
 .pokemon-header .health {
@@ -61,4 +72,10 @@ body {
 .card-style-3 img {
     border: 5px solid  #c07616;
     margin-bottom: 5px
+}
+
+.attack {
+    align-items: center;
+    vertical-align: center;
+    justify-content:space-between
 }
