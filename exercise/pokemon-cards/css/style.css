@@ -64,7 +64,6 @@ body {
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin-top: 0px;
 }
 
 .pokemon-header .health {
@@ -76,6 +75,7 @@ body {
 .pokemon-header .name {
     font-size: 25px;
     text-align:left;
+    margin-bottom: 0vh;
 }
 
 .details {
