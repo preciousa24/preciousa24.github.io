@@ -216,20 +216,32 @@ a {
 
 /*Tablet*/
 @media screen and (max-width: 768px)  and (min-width: 481px) {
-    body {
-        background-color: rgb(0, 183, 255)
-    }
 
     #nav {
         flex-direction: column;
         align-items: center;
+        margin: 12px;
+    }
+
+    #hero {
+        width: 100%;
+        height: 150vh;
     }
 
     #hero h1 {
-        font-size: 35px;
+        font-size: 10vh;
     }
 
-    #hero h2 {
-        font-size: 30px;
+    #hero h3 {
+        font-size: 40px;
+        flex-wrap: wrap;
     }
+
+    .three-cards,
+    .two-cards {
+        flex-direction: column;
+        margin: 20vh
+    }
+
+
 }
