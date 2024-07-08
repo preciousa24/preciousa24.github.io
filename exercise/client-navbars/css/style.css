@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body  {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background-color: rgb(2, 59, 2);
+    display: flex;
+    align-items: center;
+}
+
+#navbar-1 #logo-link {
+    margin-right: auto;
+    font-size: 26px;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+/*NavBar Client 2*/
+
+#navbar-2  {
+    background: linear-gradient(to bottom, coral , pink);
+    display: flex;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar-2 #logo-link-2 {
+    margin-right: auto;
+    font-size: 26px;
+}
+
+#navbar-2 #cta-button {
+    background-color: white;
+    color: ;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}    
+
+
+/*NavBar Client 3*/
+
+#navbar-top {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top {
+    padding: 10px; 
+}
+
+
+#navbar-middle #cta-button {
+    background-color: orange;
+    color: black;
+    border-radius: 30px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-left: 45px
+}
+
+#navbar-middle {
+    background: linear-gradient(to bottom, orange , yellow);
+    display: flex;
+    align-items: center;
+}
+
+#navbar-middle #logo-link-3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#navbar-middle a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+#navbar-middle #cta-button:hover {
+    background-color: white;
+    color: orange;
+    border: 2px solid black;
+}
+
+#navbar-bottom {
+    background-color: black;
+    padding: 18px;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
