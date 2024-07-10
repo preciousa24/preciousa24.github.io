@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cards-container {
+    display: flex;/*side-by-side*/
+    flex-wrap: wrap;/*shrinks and expands along with screen*/
+    align-items:flex-start
+}
+
+.card {
+    flex: 300px;/*flex width*/
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    display: block;/*fills up the space*/
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#card-1:hover {
+    background-color: rgb(180, 91, 180);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px)
+} 
+
+#card-1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+/*NO COLONS!!! THEY ARE VALUES!!*/
+/*Has to be used in the default state*/
+}
+
+#card-2 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-2:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px)
+}
+
+#card-3 .card-content {
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#card-3:hover .card-content {
+    opacity: 0;/*makes content disapper, but still interactable*/
+    visibility: hidden; /*unable to interact with content*/
+}
+
+#card-4 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#card-4:hover .card-content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#card-5 {
+    position: relative; /*keeps it relative to the content above*/
+}
+
+#card-5 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    padding: 24px;
+    left: 0px;
+    margin: 0px 24px;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card-5:hover .card-content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
