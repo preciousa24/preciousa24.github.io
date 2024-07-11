@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+#navbar #logo {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+#navbar {
+    background: linear-gradient(to top, green, rgb(243, 243, 5));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    display:inline-block
+}
+
+#navbar a:hover {
+    background: linear-gradient(
+        to top,
+        rgb(243, 243, 5),
+        green
+    );
+}
+
+.dropdown-container {
+    position: relative;
+
+}
+
+.dropdown-menu {
+    position: absolute; 
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: yellow;
+    width: 100%;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: green;
+}
+
+#hero {
+    background-image: url("../images/hero-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero h4 {
+    font-size: 3vw;
+}
+
+.hero-content span{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.center-column img {
+    width: 50%;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.center-column {
+    margin: 12px;
+}
+
+.center-column a {
+    text-decoration: none;
+    background: linear-gradient(
+        to top,
+        rgb(243, 243, 5),
+        green
+    );
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+.center-column a:hover {
+    background: linear-gradient(
+        to bottom,
+        rgb(243, 243, 5),
+        green
+    );
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #00000033;
+}
+
+@media screen and (max-width: 750px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        border-bottom: 2px solid black;
+    }
+
+    .center-column img {
+        width: 80%;
+        margin: 12px 33px;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+    
+    .center-column {
+        margin: 24px 24px;
+        text-align: center;
+    }
+    
+    .center-column a {
+        margin: 24px;
+    }
+    
+    .center-column a:hover {
+        background: linear-gradient(
+            to bottom,
+            rgb(243, 243, 5),
+            green
+        );
+        border: 2px solid black;
+        box-shadow: 4px 4px 4px #00000033;
+    }
+}
