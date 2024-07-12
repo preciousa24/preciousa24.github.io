@@ -104,11 +104,12 @@ body {
     object-fit: cover;
 }
 
-.center-column h1 {
-    background-color: yellowgreen;
+h1 {
+    background-color: rgb(255, 166, 0) ;
     font-size: 40px;
     padding: 24px;
     text-align: center;
+    margin-top: 0px
 }
 
 .center-column {
@@ -145,6 +146,45 @@ body {
     border: 2px solid black;
     margin: 20px;
     padding: 10px;
+}
+
+#grid-layout {
+    display: block;
+    padding: 10px;
+}
+
+#sidebar-content {
+    background-color: yellowgreen;
+}
+
+
+
+#sidebar-content a {
+    text-decoration: none;
+    padding: 8px 0px;
+    color: black;
+    display: inline-block;
+}
+
+#sidebar-content a:hover {
+    background-color: rgb(111, 150, 35);
+    display: block;
+    padding: 20px
+}
+
+#sidebar-content ul {
+    margin: 0px 0px 36px;
+    padding: 12px;
+    list-style-type: none;
+}
+
+#sidebar-content h2 {
+    background-color:green;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
 }
 
 @media screen and (max-width: 750px) {
@@ -200,9 +240,44 @@ body {
         box-shadow: 12px 12px 12px #00000033;
     }
 
-    .center-column h1 {
-        background-color: yellowgreen;
+
+    #sidebar-content ul {
+        font-size: 15px;
+        margin: 0px 0px 36px;
+        padding: 12px;
+        list-style-type: none;
+
+    }
+
+    h1 {
+        background-color:  rgb(255, 166, 0);
+        font-size: 40px;
         padding: 24px;
+        text-align: center;
+        margin-top: 0px
+    }
+
+    #sidebar-content a {
+        text-decoration: none;
+        padding: 8px 0px;
+        color: black;
+        display: inline-block;
+    }
+    
+    #sidebar-content a:hover {
+        background-color: rgb(111, 150, 35);
+        display: block;
+        padding: 20px
+    }
+    
+    
+    #sidebar-content h2 {
+        background-color:green;
+        color: white;
+        padding: 12px;
+        font-size: 18px;
+        margin: 0px;
+        text-align: center;
     }
 
 }
