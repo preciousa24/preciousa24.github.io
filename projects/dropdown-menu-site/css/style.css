@@ -99,13 +99,21 @@ body {
 .center-column img {
     width: 50%;
     margin: 12px;
-    border: 2px solid black;
+    border: 5px solid rgb(255, 166, 0);
     border-radius: 25px;
     object-fit: cover;
 }
 
+.center-column h1 {
+    background-color: yellowgreen;
+    font-size: 40px;
+    padding: 24px;
+    text-align: center;
+}
+
 .center-column {
     margin: 12px;
+    padding: 24px;
 }
 
 .center-column a {
@@ -115,9 +123,11 @@ body {
         rgb(243, 243, 5),
         green
     );
+    box-shadow: 4px 4px 4px #00000033;
     padding: 15px;
     border-radius: 25px;
     color: white;
+    display: inline-block;
 }
 
 .center-column a:hover {
@@ -128,6 +138,13 @@ body {
     );
     border: 2px solid black;
     box-shadow: 4px 4px 4px #00000033;
+}
+
+.paragraph-content {
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 750px) {
@@ -164,4 +181,28 @@ body {
         border: 2px solid black;
         box-shadow: 4px 4px 4px #00000033;
     }
+
+    #hero {
+        background-image: url("../images/hero-1.jpg");
+        height: 50vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center-column {
+        margin: 12px;
+        background-color: rgb(255, 166, 0);
+        padding: 24px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 12px #00000033;
+    }
+
+    .center-column h1 {
+        background-color: yellowgreen;
+        padding: 24px;
+    }
+
 }
