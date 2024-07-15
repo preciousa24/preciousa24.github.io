@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+#navbar-top {
+    background: linear-gradient(to bottom, rgb(230, 194, 34), #aa8c04);
+    text-align: center;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top {
+    padding: 10px; 
+}
+
+
+#navbar-middle #cta-button {
+    background: linear-gradient(to bottom, rgb(230, 194, 34), #aa8c04);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: auto;
+    padding: 20px
+}
+
+#navbar-middle {
+    background-color: #C1272D;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+#navbar-middle #logo-link img {
+    width: 150px;
+    
+}
+
+#navbar-middle a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#navbar-bottom {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+#navbar-bottom a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#navbar-bottom h4 {
+    color: white
+}
+
+#navbar-bottom a:hover {
+    background-color: gray;
+    color: black;
+}
+
+#hero {
+    background-image: url(../images/restaurant\ gif.gif);
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 5vw;
+    padding-left: 10vw;
+    text-align: left;
+    color: black;
+}
+
+#bottom-page img {
+
+}
