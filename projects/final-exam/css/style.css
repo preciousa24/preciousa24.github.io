@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/football.jpg");
+}
+
+#heading {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 36px
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#center-column {
+    display: flex;
+    margin-left: 10vh;
+}
+
+#center-column {
+    width: 300px;
+}
+
+
+#bottom-paragraph {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(0, 0, 3)
+}
+
+#bottom-nav a {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    margin-bottom: 21px;
+    padding: 24px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+#bottom-nav h6 {
+    display: flex;
+    justify-content: center;
+}
+
+#sponsor {
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -467,7 +467,7 @@ body {
         text-align: center;
         border: 2px solid black;
         border-radius: 0px;
-        margin-right: 36vh;
+        margin-right: 35vh;
         margin-top: 10px;
         padding: 20px
     }
@@ -515,3 +515,113 @@ body {
         margin-right: 5vh;
     }
 }
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #navbar-middle {
+        flex-direction: column;
+        font-size: 17px;
+    }
+
+    #navbar-middle #logo-link img {
+        width: 200px;
+        
+    }
+
+    #navbar-middle a {
+        border-bottom: 2px solid black;
+    }
+
+    #hero {
+        height: 50vh;
+    }
+
+    #hero h1 {
+        font-size: 4vw;
+        text-align: left;
+        margin-bottom: 30vh;
+        color: black;
+    }
+
+    #footer a {
+      border-right: none;
+      display: flex;
+    }
+
+    #card-1 {
+        position: relative;
+        display: block;
+        text-align: center;
+        padding-bottom: 25vh;
+        
+    }
+
+    #card-1 h3 {
+        display: flex;
+        margin-top: 24px;
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+
+    #card-1 img {
+        height: 250px;
+        width: 350px;
+        border: 2px solid black;
+        margin-top: 24px;
+        margin-right: 50px;
+    }
+    
+    #navbar-middle #cta-button {
+        background: linear-gradient(to bottom, rgb(230, 194, 34), #aa8c04);
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 0px;
+        margin-right: 54vh;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 20px
+    }
+
+        #username-bar,
+        #password-bar {
+        margin-left: 15vh;
+        margin-right: 15vh;
+    }
+
+    #login-page h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #login-page a {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 12px;
+    }
+
+    #login-button a {
+        display: flex;
+        text-decoration: none;
+        font-size: 15px;
+        background-color: #aa8c04;;
+        margin-bottom: 24px;
+        border: 2px solid black;
+        padding: 10px
+    }
+
+    #hero-private-dining {
+        margin-top: 10px
+    }
+
+    #hero-private-dining h1 {
+        margin-bottom: 30vh;
+        margin-left: 70px
+    }
+
+    #details a {
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+}
+
