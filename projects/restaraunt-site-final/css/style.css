@@ -64,16 +64,20 @@ body {
 }
 
 #navbar-bottom {
+    display:flex;
+    flex-direction: column;
     background-color: black;
     padding: 5px;
     text-align: center;
+    margin-right: 40vh;
+    margin-left: 40vh;
 }
 
 #navbar-bottom a {
     display: flex;
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid white;
 }
 
@@ -142,6 +146,9 @@ body {
 
 .dropdown-menu-location {
     position: absolute; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
     opacity: 0;
     visibility: hidden;
     transition: 
@@ -327,7 +334,7 @@ body {
 }
 
 #mini-footer {
-    font-size: 7px;
+    font-size: 13px;
 }
 
 #details img {
@@ -431,6 +438,13 @@ body {
         border-bottom: 2px solid black;
     }
 
+    #navbar-bottom a{
+        flex-direction: column;
+        display: flex;
+        width: 59vh;
+    }
+
+
     #hero {
         height: 50vh;
     }
@@ -513,9 +527,16 @@ body {
         margin-left: 5vh;
         margin-right: 5vh;
     }
+
+    .dropdown-menu-location {
+        flex-direction: column;
+        margin-left: 15vh;
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 481px) {
     #navbar-middle {
         flex-direction: column;
         font-size: 17px;
@@ -530,97 +551,24 @@ body {
         border-bottom: 2px solid black;
     }
 
-    #hero {
-        height: 50vh;
-    }
-
-    #hero h1 {
-        font-size: 4vw;
-        text-align: left;
-        margin-bottom: 30vh;
-        color: black;
-    }
-
-    #footer a {
-      border-right: none;
-      display: flex;
-    }
-
-    #card-1 {
-        position: relative;
-        display: block;
-        text-align: center;
-        padding-bottom: 25vh;
-        
-    }
-
-    #card-1 h3 {
+    #navbar-bottom a{
+        flex-direction: column;
         display: flex;
-        margin-top: 24px;
-        margin-bottom: 5px;
-        font-size: 22px;
+        width: 57vh;
     }
 
-    #card-1 img {
-        height: 250px;
-        width: 350px;
-        border: 2px solid black;
-        margin-top: 24px;
-        margin-right: 50px;
+    #navbar-bottom {
+        width: 61vh;
+        margin-left: 25vh;
+        padding: 12px;
     }
-    
+
+    #mini-footer {
+        font-size: 11px;
+    }
+
     #navbar-middle #cta-button {
-        background: linear-gradient(to bottom, rgb(230, 194, 34), #aa8c04);
-        text-align: center;
-        border: 2px solid black;
-        border-radius: 0px;
-        margin-right: 54vh;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        padding: 20px
+        margin: 5vh;
+        padding: 20px;
     }
-
-        #username-bar,
-        #password-bar {
-        margin-left: 15vh;
-        margin-right: 15vh;
-    }
-
-    #login-page h1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    #login-page a {
-        display: flex;
-        justify-content: center;
-        color: black;
-        font-size: 12px;
-    }
-
-    #login-button a {
-        display: flex;
-        text-decoration: none;
-        font-size: 15px;
-        background-color: #aa8c04;;
-        margin-bottom: 24px;
-        border: 2px solid black;
-        padding: 10px
-    }
-
-    #hero-private-dining {
-        margin-top: 10px
-    }
-
-    #hero-private-dining h1 {
-        margin-bottom: 30vh;
-        margin-left: 70px
-    }
-
-    #details a {
-        margin-left: 5vh;
-        margin-right: 5vh;
-    }
-
 }
-
