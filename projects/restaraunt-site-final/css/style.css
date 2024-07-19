@@ -255,29 +255,30 @@ body {
 }
 
 #card-1 {
-    position: relative;
-    display: block;
     text-align: center;
-    padding-bottom: 25vh;
+    padding-bottom: 12vh;
+}
+
+
+.gallery {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.gallery img {
+    aspect-ratio: 16/9;
+
+}
+
+.chef-rec h2{
+ background-color:#BDCCD4;
+ padding: 15px
 }
 
 #card-1 .card-content {
-    position: absolute;
-    background-color: white;
-    border: 3px solid #aa8c04;
     border-radius: 12px;
-    box-shadow: 4px 4px 4px #00000033;
     padding: 24px;
-    left: 0px;
-    margin: 0px 24px;
-
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s;
 }
 
 .card-content a {
@@ -292,17 +293,13 @@ body {
     color: white;
 }
 
-#card-1:hover .card-content {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0px);
-}
-
 #card-1 img {
-    height: 330px;
-    width: 400px;
+    display:;
+    height: 250px;
+    width: 340px;
     border: 2px solid black;
     margin-top: 24px;
+    object-fit: cover;
 }
 
 #heading h1 {
