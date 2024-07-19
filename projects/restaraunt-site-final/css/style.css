@@ -172,20 +172,23 @@ body {
 
 
 #hero {
-    background-image: url(../images/restaurant\ gif.gif);
+    background-image: url(../images/restaurant.jpg);
     height: 70vh;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 #hero h1 {
-    font-size: 3vw;
+    font-size: 5vw;
     padding-left: 10vw;
     text-align: left;
-    margin-bottom: 35vh;
+    margin-bottom: 25vh;
+    color:white;
+    padding: 12px;
+    background-color: black;
 }
 
 #bottom-page {
@@ -257,6 +260,9 @@ body {
 #card-1 {
     text-align: center;
     padding-bottom: 12vh;
+    border: 2px solid black;
+    margin: 20px 25vh;
+    background-color:#aa8c04;
 }
 
 
@@ -266,14 +272,12 @@ body {
     margin-bottom: 24px;
 }
 
-.gallery img {
-    aspect-ratio: 16/9;
-
-}
 
 .chef-rec h2{
  background-color:#BDCCD4;
- padding: 15px
+ padding: 15px;
+ border-bottom: 2px solid black;
+ border-top: 2px solid black;
 }
 
 #card-1 .card-content {
@@ -294,7 +298,6 @@ body {
 }
 
 #card-1 img {
-    display:;
     height: 250px;
     width: 340px;
     border: 2px solid black;
@@ -460,7 +463,6 @@ body {
 
     #card-1 h3 {
         display: flex;
-        flex-wrap: wrap;
         margin-top: 24px;
         font-size: 22px;
     }
